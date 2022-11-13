@@ -12,7 +12,7 @@ module BlogApp
     config.load_defaults 6.0
 
     Bundler.require(*Rails.groups)
-    Dotev::Railtie.load
+    Dotenv::Railtie.load
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
